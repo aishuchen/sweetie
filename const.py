@@ -8,6 +8,6 @@ choices = {
 }
 
 
-work_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=5f494826-5901-487c-bca1-ba67f2e618c6"
+work_url = ""
 
 site = "http://localhost:8000"
