@@ -1,3 +1,5 @@
+import os
+
 choices = {
     "迪美方向": ["牛肉粉", "大鼓米线", "韩式拌饭"],
     "对面B1": ["大盘鸡", "自选", "辣子鸡"],
@@ -8,6 +10,6 @@ choices = {
 }
 
 
-work_url = ""
+work_url = os.environ["WORK_URL"]
 
-site = "http://localhost:8000"
+site = os.environ.get("SITE", default="http://localhost:8000")
