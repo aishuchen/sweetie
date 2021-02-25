@@ -13,7 +13,7 @@ def choose():
     return direction, food
 
 
-async def serve():
+def serve():
     direction, food = choose()
     push(direction=direction, food=food)
     return food
@@ -41,6 +41,3 @@ def push(direction, food, time="", rechoose=False):
     )
     messenger.send(msg)
 
-
-if __name__ == '__main__':
-    serve()
