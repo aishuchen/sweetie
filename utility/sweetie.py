@@ -8,7 +8,7 @@ re_choose_url = f"{const.site}/rechoose"
 
 
 def get_choices():
-    for direction in const.choices:
+    for direction in const.choices
         for foods in const.choices[direction]:
             yield (direction, foods)
 
