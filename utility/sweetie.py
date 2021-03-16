@@ -43,7 +43,7 @@ def re_choose(time):
 def push(direction, food, time="", rechoose=False):
     prefix = f"马上到吃{time}饭时间啦，今日建议"
     if rechoose:
-        prefix = "已重新选择, 建议"
+        prefix = "已重新选择，建议"
     msg = (
         f'{prefix}<font color="info">{direction}</font>的<font color="info">{food}</font>\n'
         f'还可以：\n'
