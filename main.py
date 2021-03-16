@@ -7,4 +7,4 @@ app.include_router(sweetie.router)
 
 @app.get("/")
 def index():
-    return {"hello": "word"}
+    return {"message": "盲生你发现了华点"}
