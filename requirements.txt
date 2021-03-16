@@ -1,3 +1,5 @@
 requests
 fastapi
+pytz
+ipython
 uvicorn
